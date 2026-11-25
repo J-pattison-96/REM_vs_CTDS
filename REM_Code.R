@@ -12,7 +12,7 @@ library(tidyverse)
 
 ### load data ###
 # Observation data
-setwd("/Users/jessepattison/Desktop/Ecology-Masters/Masters_Thesis/Raw_data/File_results/combined_tables/combined/Final_tables/Send_to_tim/FINAL/Nov16_FINAL_CODE_TO_UPLOAD")
+setwd("SET WORKING DIRECTORY")
 ## Load observation table
 obs.table <- read.csv("observation_data.csv")
 # subset to species-area that you are analyzing
